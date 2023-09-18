@@ -1,15 +1,31 @@
-<header>
-    <app-menu-bar></app-menu-bar>
-</header>
+
 <app-menu-tittle></app-menu-tittle>
 <div class="articles">
     <div class="articles_main">
-        <app-big-card></app-big-card>
+        <app-big-card
+            id="1" 
+            photoCover="https://static.poder360.com.br/2022/07/nebulosa-carina-nasa-12-jul-2022.png" 
+            cardTitle="NEBULOSA DE CARINA" 
+            cardDescription="Imagem da Nebulosas de Carina tirada pelo Telescópio James Webb da NASA.">
+        </app-big-card>
     </div>
+
     <div class="articles_others">
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
+        <app-small-card 
+        id="2"
+        photoCover="https://s2.glbimg.com/1jj-J5vz7H74C4SkN9iHJzA_Xm0=/e.glbimg.com/og/ed/f/original/2020/06/21/stsci-h-p2031b-m-2000x1778.png"
+        cardDescription="Imagem da Nebulosa da Borboleta, tirada pelo telesópio Hubble da NASA" >
+        </app-small-card>
+        <app-small-card
+        id="3"
+            photoCover="https://s2-valor.glbimg.com/TH1zmXIAdSTB0GUPKvA520kGyb4=/0x0:2019x2048/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2023/N/j/BZB5C3SoqNsNmLaFLBBw/nebulosa-do-anel-capturada-pelo-james-webb.jpg"
+            cardDescription="Imagem da Nebulosa do Anel, tirada pelo telesópio James Webb da NASA" >
+        </app-small-card>
+        <app-small-card
+        id="4"
+        photoCover="https://classic.exame.com/wp-content/uploads/2022/09/nebulosa-tarantula-imagem-james-webb.jpg?quality=70&strip=info&w=1024"
+        cardDescription="Imagem da Nebulosa da Tarantula, tirada pelo telesópio Hubble da NASA" >
+        </app-small-card>
     </div>
 </div>
 
